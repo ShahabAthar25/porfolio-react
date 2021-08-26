@@ -1,0 +1,28 @@
+.sidebar {
+  background-color: #040b14;
+  height: 100%;
+  flex: 0.2;
+}
+
+.sidebar__profilePic {
+  margin: 15px auto;
+  width: 120px !important;
+  height: 120px !important;
+  border: 8px solid #2c2f3f;
+}
+
+.info {
+  text-align: center;
+}
+
+.info h1 {
+  color: #fff;
+  font-weight: 500;
+}
+
+.sidebar__icon {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

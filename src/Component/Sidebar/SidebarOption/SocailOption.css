@@ -1,0 +1,15 @@
+.socailOption__icon {
+  color: white !important;
+  font-size: 18px !important;
+  border-radius: 50%;
+  text-align: center;
+  margin: 3px 5px;
+  padding: 8px;
+  background-color: #212431;
+  text-decoration: none;
+}
+
+.socailOption__icon:hover {
+  background-color: #37b3ed;
+  transition: 0.3s;
+}
