@@ -43,9 +43,9 @@ function Sidebar() {
                 <SidebarOption Icon={MailOutlineOutlinedIcon} text="Contact" />
             </div>
 
-        <div className="footer">
-            <p>© Copyright Shahab Athar</p>
-        </div>
+            <footer className="footer">
+                <p>Made By Shahab Athar</p>
+            </footer>
         </div>
     )
 }

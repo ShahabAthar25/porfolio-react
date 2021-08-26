@@ -30,3 +30,12 @@
 .sidebar__links {
   margin-top: 30px;
 }
+
+.footer {
+  margin-top: 100px;
+  margin-left: 60px;
+}
+
+.footer p {
+  color: #fff;
+}
