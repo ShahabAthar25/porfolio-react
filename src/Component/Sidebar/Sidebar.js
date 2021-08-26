@@ -2,11 +2,19 @@ import { Avatar } from '@material-ui/core'
 import React from 'react'
 
 import SocailOption from './SidebarOption/SocailOption'
+import SidebarOption from './SidebarOption/SidebarOption'
 
 import TwitterIcon from '@material-ui/icons/Twitter';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import EmailIcon from '@material-ui/icons/Email';
+
+import HomeOutlinedIcon from '@material-ui/icons/HomeOutlined';
+import PersonOutlineOutlinedIcon from '@material-ui/icons/PersonOutlineOutlined';
+import InsertDriveFileOutlinedIcon from '@material-ui/icons/InsertDriveFileOutlined';
+import MenuBookOutlinedIcon from '@material-ui/icons/MenuBookOutlined';
+import MailOutlineOutlinedIcon from '@material-ui/icons/MailOutlineOutlined';
+import LocalLibraryOutlinedIcon from '@material-ui/icons/LocalLibraryOutlined';
 
 import './Sidebar.css'
 
@@ -26,6 +34,18 @@ function Sidebar() {
                     <SocailOption url={'#'} Icon={EmailIcon} />
                 </div>
             </div>
+            <div className="sidebar__links">
+                <SidebarOption Icon={HomeOutlinedIcon} text="Home" />
+                <SidebarOption Icon={PersonOutlineOutlinedIcon} text="About" />
+                <SidebarOption Icon={InsertDriveFileOutlinedIcon} text="Resume" />
+                <SidebarOption Icon={MenuBookOutlinedIcon} text="Portfolio" />
+                <SidebarOption Icon={LocalLibraryOutlinedIcon} text="Education" />
+                <SidebarOption Icon={MailOutlineOutlinedIcon} text="Contact" />
+            </div>
+
+        <div className="footer">
+            <p>© Copyright Shahab Athar</p>
+        </div>
         </div>
     )
 }

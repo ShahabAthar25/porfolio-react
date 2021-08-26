@@ -26,3 +26,7 @@
   align-items: center;
   justify-content: center;
 }
+
+.sidebar__links {
+  margin-top: 30px;
+}
