@@ -1,0 +1,19 @@
+.home {
+  font-size: 60px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.home__flex {
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.home p {
+  margin-right: 15px;
+}

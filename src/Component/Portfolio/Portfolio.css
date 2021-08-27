@@ -1,3 +1,7 @@
 .portfolio {
   flex: 0.8;
+  background-image: url(../../images/WhatsApp\ Image\ 2021-08-26\ at\ 10.12.28\ PM.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-y: scroll;
 }

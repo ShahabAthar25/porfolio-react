@@ -1,10 +1,24 @@
 .app {
   height: 100vh;
   width: 100vw;
+  overflow-x: hidden;
 }
 
 .app_body {
   height: 100%;
   width: 100%;
   display: flex;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(gray, gray, gray);
+  border-radius: 25px;
 }
