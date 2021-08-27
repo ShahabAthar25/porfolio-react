@@ -2,12 +2,12 @@ import React from 'react'
 
 import './SidebarOption.css'
 
-function SidebarOption({ Icon, text }) {
+function SidebarOption({ Icon, text, url }) {
     return (
-        <div className="sidebarOption">
+        <a className="sidebarOption" href={`#${url}`}>
             <Icon className="sidebarOption__icon" />
             <p>{text}</p>
-        </div>
+        </a>
     )
 }
 

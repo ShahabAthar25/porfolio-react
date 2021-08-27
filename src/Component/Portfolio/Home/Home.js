@@ -6,7 +6,7 @@ import './Home.css'
 
 function Home() {
     return (
-        <div className="home">
+        <div className="home" id="home">
             <p>Shahab Athar</p>
             <div className="home__flex">
                 <p>I'm a </p>

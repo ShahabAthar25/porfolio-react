@@ -22,7 +22,6 @@ function Sidebar() {
     return (
         <div className="sidebar">
             <div className="profile">
-                {/* <img className="sidebar__profilePic" src="" alt="" /> */}
                 <Avatar className="sidebar__profilePic" />
                 <div className="info">
                     <h1>Shahab Athar</h1>
@@ -35,12 +34,12 @@ function Sidebar() {
                 </div>
             </div>
             <div className="sidebar__links">
-                <SidebarOption Icon={HomeOutlinedIcon} text="Home" />
-                <SidebarOption Icon={PersonOutlineOutlinedIcon} text="About" />
-                <SidebarOption Icon={InsertDriveFileOutlinedIcon} text="Resume" />
-                <SidebarOption Icon={MenuBookOutlinedIcon} text="Portfolio" />
-                <SidebarOption Icon={LocalLibraryOutlinedIcon} text="Education" />
-                <SidebarOption Icon={MailOutlineOutlinedIcon} text="Contact" />
+                <SidebarOption Icon={HomeOutlinedIcon} text="Home" url="home" />
+                <SidebarOption Icon={PersonOutlineOutlinedIcon} text="About" url="about" />
+                <SidebarOption Icon={InsertDriveFileOutlinedIcon} text="Resume" url="resume" />
+                <SidebarOption Icon={MenuBookOutlinedIcon} text="Portfolio" url="portfolio" />
+                <SidebarOption Icon={LocalLibraryOutlinedIcon} text="Education" url="education" />
+                <SidebarOption Icon={MailOutlineOutlinedIcon} text="Contact" url="contact" />
             </div>
 
             <footer className="footer">
