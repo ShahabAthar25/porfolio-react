@@ -10,3 +10,9 @@
   height: 15px;
   background: white;
 }
+
+.progress__text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

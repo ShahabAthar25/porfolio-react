@@ -5,7 +5,10 @@ import './ProgressBar.css'
 function ProgressBar({ pct, text }) {
     return (
         <div className="progress">
-            <p>{text}</p>
+            <div className="progress__text">
+                <p>{text}</p>
+                <p className="float-left">{pct}%</p>
+            </div>
             <div className="progressBar-bg">
                 <div className="progressBar" style={{ width: `${pct}%`}}></div>
             </div>
