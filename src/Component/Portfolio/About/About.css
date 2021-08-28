@@ -1,0 +1,48 @@
+.about {
+  background: #040b14;
+  background: linear-gradient(
+    to right bottom,
+    rgba(4, 11, 20, 0.5),
+    rgba(4, 11, 20, 0.4)
+  );
+  width: 90%;
+  margin: auto;
+  margin-bottom: 100px;
+  border-radius: 25px;
+  height: 500px;
+  color: white;
+  backdrop-filter: blur(5px);
+  display: flex;
+}
+
+.profile_pic {
+  height: 500px;
+  object-fit: contain;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.aboutme {
+  margin-left: 30px;
+  margin: 50px 40px;
+}
+
+.aboutme .header h1 {
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+.seprater {
+  border-bottom: 1px solid #fff;
+}
+
+.description {
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+}

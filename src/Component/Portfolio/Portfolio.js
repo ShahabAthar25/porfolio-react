@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Home from './Home/Home'
+import About from './About/About'
 
 import './Portfolio.css'
 
@@ -8,33 +9,7 @@ function Portfolio() {
     return (
         <div className="portfolio">
             <Home />
-            <h1>Hello</h1>
-            <h1>Hello</h1>
-            <h1>Hello</h1>
-            <h1>Hello</h1>
-            <h1>Hello</h1>
-            <h1>Hello</h1>
-            <h1>Hello</h1>
-            <h1>Hello</h1>
-            <h1>Hello</h1>
-            <h1>Hello</h1>
-            <h1>Hello</h1>
-            <h1>Hello</h1>
-            <h1>Hello</h1>
-            <h1>Hello</h1>
-            <h1>Hello</h1>
-            <h1>Hello</h1>
-            <h1>Hello</h1>
-            <h1>Hello</h1>
-            <h1>Hello</h1>
-            <h1>Hello</h1>
-            <h1>Hello</h1>
-            <h1>Hello</h1>
-            <h1>Hello</h1>
-            <h1>Hello</h1>
-            <h1>Hello</h1>
-            <h1>Hello</h1>
-            <h1>Hello</h1>
+            <About />
         </div>
     )
 }

@@ -1,0 +1,12 @@
+.progress {
+  margin: 20px 0;
+}
+
+.progressBar-bg {
+  background: gray;
+}
+
+.progressBar {
+  height: 15px;
+  background: white;
+}

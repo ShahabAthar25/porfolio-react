@@ -1,6 +1,8 @@
 import { Avatar } from '@material-ui/core'
 import React from 'react'
 
+import ProfilePic from '../../images/profile_pic.jpeg'
+
 import SocailOption from './SidebarOption/SocailOption'
 import SidebarOption from './SidebarOption/SidebarOption'
 
@@ -22,7 +24,7 @@ function Sidebar() {
     return (
         <div className="sidebar">
             <div className="profile">
-                <Avatar className="sidebar__profilePic" />
+                <Avatar className="sidebar__profilePic" src={ProfilePic} />
                 <div className="info">
                     <h1>Shahab Athar</h1>
                 </div>
