@@ -5,3 +5,9 @@
   background-size: cover;
   overflow-y: scroll;
 }
+
+@media (max-width: 700px) {
+  .portfolio {
+    flex: 1;
+  }
+}

@@ -17,3 +17,18 @@
 .home p {
   margin-right: 15px;
 }
+
+@media (max-width: 600px) {
+  .home {
+    font-size: 40px;
+  }
+  .home__flex {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 385px) {
+  .home__flex {
+    font-size: 20px;
+  }
+}
